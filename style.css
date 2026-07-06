@@ -201,14 +201,19 @@ button {
 
 .fallback-message {
     font-family: sans-serif;
+    font-style: italic;
     font-size: 13px;
-    color: #444;
-    background: #fff5f8;
-    border: 2px dashed var(--pink-silk);
+    color: #7a2f47;
+    background: rgba(255, 182, 193, 0.25);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1.5px dashed rgba(255, 105, 180, 0.5);
     border-radius: 10px;
     padding: 12px;
     white-space: pre-wrap;
     margin: 0 0 12px 0;
+    position: relative;
+    opacity: 0.85;
 }
 
 #copy-btn {
