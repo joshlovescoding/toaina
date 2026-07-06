@@ -157,6 +157,7 @@ function sendYes() {
         "",
         "好きな食べ物：",
         "行きたい場所：",
+        "それと…"
     ];
     const body = bodyLines.join("\n");
     const fullMessage = `To: ${email}\nSubject: ${subject}\n\n${body}`;
