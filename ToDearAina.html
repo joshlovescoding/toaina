@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>A Special Message for AINA</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="heart-bg" aria-hidden="true"></div>
+        <div id="confetti-layer" aria-hidden="true"></div>
+
+        <div class="container" id="main-card">
+            <h1>
+                Dear AINA,<br /><br />would you like to hang out and have a date
+                with me?
+            </h1>
+
+            <div class="btn-group">
+                <button
+                    id="yes-btn"
+                    onclick="sendYes()"
+                    aria-label="Yes, I would like to hang out"
+                >
+                    YES
+                </button>
+                <button id="no-btn" aria-label="No, I don't want to hang out">
+                    NO
+                </button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
