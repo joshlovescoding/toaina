@@ -170,7 +170,7 @@ function sendYes() {
         <h1 class="yay-heading">❤️ YAY! ❤️</h1>
         <p class="yay-text">Can't wait! Check your email app to send the confirmation!</p>
         <div class="fallback-box">
-            <span class="fallback-label">Didn't open? Copy this and paste it into any email/message app:</span>
+            <span class="fallback-label">💡 Suggested message (feel free to edit before sending):</span>
             <pre class="fallback-message" id="fallback-message">${fullMessage}</pre>
             <button id="copy-btn" onclick="copyFallbackMessage()">COPY MESSAGE</button>
         </div>
